@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d75a1e41-00db-4445-b721-b446bbbeca45" name="Changes" comment="Implemente class DeedSquare">
-      <change afterPath="$PROJECT_DIR$/src/GameComponents/GuiControllor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameComponents/DeedSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameComponents/DeedSquare.java" afterDir="false" />
+    <list default="true" id="d75a1e41-00db-4445-b721-b446bbbeca45" name="Changes" comment="Add GuiControllor class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameComponents/BoardInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameComponents/BoardInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameComponents/GuiControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameComponents/GuiControllor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +104,7 @@
       <workItem from="1667828950825" duration="580000" />
       <workItem from="1667830005102" duration="1574000" />
       <workItem from="1667831905528" duration="65000" />
-      <workItem from="1667833901528" duration="1801000" />
+      <workItem from="1667833901528" duration="6166000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Print player number&quot;">
       <created>1666619946240</created>
@@ -175,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667844494952</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add GuiControllor class">
+      <created>1667844738903</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667844738903</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +250,7 @@
     <MESSAGE value="Add class SquareName" />
     <MESSAGE value="Implemente class BoardInit" />
     <MESSAGE value="Implemente class DeedSquare" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemente class DeedSquare" />
+    <MESSAGE value="Add GuiControllor class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add GuiControllor class" />
   </component>
 </project>
