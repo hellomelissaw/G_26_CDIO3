@@ -1,0 +1,116 @@
+@startuml
+
+title Class Diagram
+
+class PlayerTurn {
+diceCup : Cup
+gameSquare : Square
+currentSum : int
+
+play(): void
+}
+
+class Cup{
+die1: Die
+die2 : Die
+sumDice():int
+}
+
+class Die {
+maxSides: int
+faceValue: int
+
+roll(): random int
+
+}
+
+class Game {
+player1 : Player
+player2 : Player
+
+
+
+}
+
+class Player{
+account : Account
+name: String
+
+}
+
+class Account{
+balance
+updateBalance()
+
+}
+
+class Square {
+pointsValue[]: int
+description[]: String
+
+}
+
+
+
+'https://plantuml.com/class-diagram
+class BoardInit {
+deedName : Deed()
+
+}
+
+abstract class Square {
+- name : String
+}
+
+class DeedSquare {
+deed: Deed()
+deedSold: boolean false
+hasDeed():boolean
+sellDeed():void
+
+}
+
+class Deed {
+ownerName: Player
+price: int
+
+}
+
+class Player {
+name: String
+addDeed(Deed s)
+
+}
+
+class Account {
+withdraw()
+deposit()
+
+}
+Game <-down- BoardInit
+
+BoardInit <|-down- PlayerTurn
+
+Square <|-down- DeedSquare
+
+DeedSquare <-down- Deed
+
+Player <-down- Account
+
+Game <-right- Player
+
+PlayerTurn "1" -left- "1" Cup
+
+
+
+PlayerTurn "1" -down- "11" Square
+
+
+
+Cup "1" -down- "2" Die
+
+Player "1" -down- "1" Account
+
+@enduml
+
+
