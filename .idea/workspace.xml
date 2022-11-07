@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d75a1e41-00db-4445-b721-b446bbbeca45" name="Changes" comment="Adding instructions for how to translate game">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d75a1e41-00db-4445-b721-b446bbbeca45" name="Changes" comment="Add three classes: BoardInit, Deed and DeedSquare.">
+      <change beforePath="$PROJECT_DIR$/src/GameComponents/Deed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameComponents/Deed.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +102,7 @@
       <workItem from="1667828950825" duration="580000" />
       <workItem from="1667830005102" duration="1574000" />
       <workItem from="1667831905528" duration="65000" />
-      <workItem from="1667833901528" duration="804000" />
+      <workItem from="1667833901528" duration="1143000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Print player number&quot;">
       <created>1666619946240</created>
@@ -147,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666986690884</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add three classes: BoardInit, Deed and DeedSquare.">
+      <created>1667843913367</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667843913368</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +215,7 @@
     <MESSAGE value="Adding break if player has won" />
     <MESSAGE value="Swapping win variable with break;" />
     <MESSAGE value="Adding instructions for how to translate game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding instructions for how to translate game" />
+    <MESSAGE value="Add three classes: BoardInit, Deed and DeedSquare." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add three classes: BoardInit, Deed and DeedSquare." />
   </component>
 </project>
