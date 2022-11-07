@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d75a1e41-00db-4445-b721-b446bbbeca45" name="Changes" comment="Add three classes: BoardInit, Deed and DeedSquare.">
-      <change beforePath="$PROJECT_DIR$/src/GameComponents/Deed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameComponents/Deed.java" afterDir="false" />
+    <list default="true" id="d75a1e41-00db-4445-b721-b446bbbeca45" name="Changes" comment="Add class SquareName">
+      <change beforePath="$PROJECT_DIR$/src/GameComponents/BoardInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameComponents/BoardInit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,7 @@
       <workItem from="1667828950825" duration="580000" />
       <workItem from="1667830005102" duration="1574000" />
       <workItem from="1667831905528" duration="65000" />
-      <workItem from="1667833901528" duration="1143000" />
+      <workItem from="1667833901528" duration="1464000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Print player number&quot;">
       <created>1666619946240</created>
@@ -153,7 +153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667843913368</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implement class Deed">
+      <created>1667844080935</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667844080935</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add class SquareName">
+      <created>1667844311867</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667844311867</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +230,8 @@
     <MESSAGE value="Swapping win variable with break;" />
     <MESSAGE value="Adding instructions for how to translate game" />
     <MESSAGE value="Add three classes: BoardInit, Deed and DeedSquare." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add three classes: BoardInit, Deed and DeedSquare." />
+    <MESSAGE value="Implement class Deed" />
+    <MESSAGE value="Add class SquareName" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add class SquareName" />
   </component>
 </project>
