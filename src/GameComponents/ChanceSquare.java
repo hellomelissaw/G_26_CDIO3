@@ -1,8 +1,9 @@
 package GameComponents;
 
-public class ChanceSquare {
+public class ChanceSquare extends Square{
+    String squareName;
     public ChanceSquare(String squareName) {
-        squareName = "Chance";
+        super(squareName);
 
     }
 }

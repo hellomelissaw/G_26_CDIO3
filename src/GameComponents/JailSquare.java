@@ -1,9 +1,10 @@
 package GameComponents;
 
-public class JailSquare {
+public class JailSquare extends Square{
 
-    public JailSquare(String squareName) {
-        squareName = "Jail";
+    String squareName;
+    public JailSquare(String jailSquare) {
+        super(jailSquare);
 
     }
 }

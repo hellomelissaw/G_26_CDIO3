@@ -1,9 +1,9 @@
 package GameComponents;
 
-public class StartSquare {
-
-    public StartSquare(String squareName) {
-        squareName = "Start";
+public class StartSquare extends Square{
+    String squareName;
+    public StartSquare(String startSquare) {
+        super(startSquare);
 
     }
 

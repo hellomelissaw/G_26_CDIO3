@@ -6,6 +6,8 @@ public class BoardInit {
         Square[] board = new Square[24];
 
         board[1] = new DeedSquare("Burgerbaren");
+        board[2] = new DeedSquare("Pizzahuset");
+        board[3] = new ChanceSquare("Chance")
     }
     public void initializeDeeds(){
 
