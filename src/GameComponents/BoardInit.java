@@ -5,9 +5,31 @@ public class BoardInit {
     public void initializeSquares() {
         Square[] board = new Square[24];
 
-        board[1] = new DeedSquare("Burgerbaren");
-        board[2] = new DeedSquare("Pizzahuset");
-        board[3] = new ChanceSquare("Chance")
+        board[0] = new StartSquare("Start");
+        board[1] = new DeedSquare("The Burgerbar");
+        board[2] = new DeedSquare("The Pizzahouse");
+        board[3] = new ChanceSquare("Chance");
+        board[4] = new DeedSquare("The Candy Store");
+        board[5] = new DeedSquare("Ice Cream Shop");
+        board[6] = new JailSquare("Visitor at the Jail");
+        board[7] = new DeedSquare("The Museum");
+        board[8] = new DeedSquare("The Library");
+        board[9] = new ChanceSquare("Chance");
+        board[10] = new DeedSquare("The Skate Park");
+        board[11] = new DeedSquare("The Pool");
+        board[12] = new FreeParkingSquare("Free Parking");
+        board[13] = new DeedSquare("The Playing Hall");
+        board[14] = new DeedSquare("The Cinema");
+        board[15] = new ChanceSquare("Chance");
+        board[16] = new DeedSquare("The Toy Store");
+        board[17] = new DeedSquare("The Pet Shop");
+        board[18] = new JailSquare("Go to Jail");
+        board[19] = new DeedSquare("The Bowling Alley");
+        board[20] = new DeedSquare("The Zoo");
+        board[21] = new ChanceSquare("Chance");
+        board[22] = new DeedSquare("The Water Park");
+        board[23] = new DeedSquare("The Board Walk");
+
     }
     public void initializeDeeds(){
 
