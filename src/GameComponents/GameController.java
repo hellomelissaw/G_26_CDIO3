@@ -26,7 +26,6 @@ public class GameController {
 
     }
 
-
     public void run() {
         PlayerTurn action = new PlayerTurn();
         for (int i = 0 ; i < playerCount ; i++) {

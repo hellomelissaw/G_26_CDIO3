@@ -16,10 +16,7 @@ public class PlayerTurn {
     // Square 10:   Withdraw: 80
     // Square 11:   Withdraw: 50
     // Square 12:   Deposit: 650
-    public void chooseDie(int diceFaces) {
-        Cup.setDie(diceFaces);
 
-    }
     public int[] move(Player currentPlayer) {
 
        // Scanner userInput = new Scanner(System.in);
