@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d75a1e41-00db-4445-b721-b446bbbeca45" name="Changes" comment="Add GuiControllor class">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__diplomitdtu_matadorgui_3_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Diagrams/KlasseDiagram-Class_Diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/G_26_CDIO2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameComponents/GameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diagrams/KlasseDiagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Diagrams/KlasseDiagram.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameComponents/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameComponents/GameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameComponents/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameComponents/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameComponents/PlayerTurn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameComponents/PlayerTurn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +109,7 @@
       <workItem from="1667830005102" duration="1574000" />
       <workItem from="1667831905528" duration="65000" />
       <workItem from="1667833901528" duration="6166000" />
-      <workItem from="1667899343212" duration="6789000" />
+      <workItem from="1667899343212" duration="9487000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Print player number&quot;">
       <created>1666619946240</created>

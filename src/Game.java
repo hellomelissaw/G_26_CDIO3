@@ -7,6 +7,11 @@ import gui_fields.*;
 
 public class Game {
     public static void main(String[] args) {
+GameController game = new GameController();
+game.init();
+
+        /*
+
 
         Text gameInstruction = new Text("src/gametext.csv");
         Text squareDescription = new Text("src/squaredescriptions");
@@ -118,7 +123,9 @@ public class Game {
 
         }
 
-
+ */
 
     }
+
+
 }

@@ -41,15 +41,15 @@ public class PlayerTurn {
 
         if (Point < 0) {
             int newPoint = Math.abs(Point);
-            currentPlayer.takePoints(newPoint);
+            currentPlayer.withdrawMoney(newPoint);
         } else if (Point > 0) {
-            currentPlayer.givePoints(Point);
+            currentPlayer.depositMoney(Point);
         } else if (Point == 0) {
             gameInstruction.printText(6); // Prints "You Didn't earn nor lose any points"
 
         }
         // Prints out current player's balance
-        System.out.printf("%s %s %d \n",currentPlayer.getPlayerName(),gameInstruction.returnText(7),currentPlayer.getPoints());
+        System.out.printf("%s %s %d \n",currentPlayer.getPlayerName(),gameInstruction.returnText(7),currentPlayer.getCurrentBalance());
 
         if (Sum == 10 ){
             System.out.println(currentPlayer.getPlayerName() + "...");
@@ -63,14 +63,14 @@ public class PlayerTurn {
 
             if (Point < 0) {
                 int newPoint = Math.abs(Point);
-                currentPlayer.takePoints(newPoint);
+                currentPlayer.withdrawMoney(newPoint);
             } else if (Point > 0) {
-                currentPlayer.givePoints(Point);
+                currentPlayer.depositMoney(Point);
             } else if (Point == 0) {
                 gameInstruction.printText(6); // Prints "You Didn't earn nor lose any points"
             }
 
-            System.out.printf("%s %s %d \n",currentPlayer.getPlayerName(),gameInstruction.returnText(7),currentPlayer.getPoints());
+            System.out.printf("%s %s %d \n",currentPlayer.getPlayerName(),gameInstruction.returnText(7),currentPlayer.getCurrentBalance());
         }
 
         return DiceArray;

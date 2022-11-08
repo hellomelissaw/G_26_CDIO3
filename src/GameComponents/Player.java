@@ -8,11 +8,11 @@ public class Player {
     private int balance;
     Account PlayerAccount = new Account(playerName);
 
-    public Player(String playerName, int balance) {
+    public Player(String playerName) {
         this.playerName = playerName;
-        this.balance = balance;
+        //this.balance = balance;
         //System.out.println(playerName);
-        PlayerAccount.setBalance(balance);
+        //PlayerAccount.setBalance(balance);
 
     }
 
@@ -23,15 +23,15 @@ public class Player {
 
      */
 
-    public void takePoints(int newPoints) {
+    public void withdrawMoney(int newPoints) {
         PlayerAccount.withDraw(newPoints);
     }
 
-    public void givePoints(int newPoints){
+    public void depositMoney(int newPoints){
         PlayerAccount.deposit(newPoints);
     }
 
-    public int getPoints(){
+    public int getCurrentBalance(){
         //System.out.println(PlayerAccount.getBalance());
         return (PlayerAccount.getBalance());
     }
