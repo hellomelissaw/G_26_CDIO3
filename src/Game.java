@@ -1,17 +1,30 @@
 import GameComponents.*;
 
+import java.awt.*;
 import java.util.Scanner;
+
 import gui_main.*;
 import gui_fields.*;
 
 
-public class Game {
+public class Game
+{
+
+
     public static void main(String[] args) {
+
+
+        // Make the board with 24 squares
+
+        GuiControllor guiBoard = new GuiControllor();
+
+
+
+
 
         Text gameInstruction = new Text("src/gametext.csv");
         Text squareDescription = new Text("src/squaredescriptions");
 
-        GUI gui = new GUI();
         PlayerTurn Turn = new PlayerTurn();
         Scanner userInput = new Scanner(System.in);
 
@@ -29,7 +42,7 @@ public class Game {
 
         Player player1 = new Player(Player1,1000);
         Player player2 = new Player(Player2,1000);
-
+/*
         GUI_Player Player1gui = new GUI_Player(Player1, player1.getPoints());
         gui.addPlayer(Player1gui);
 
@@ -39,7 +52,7 @@ public class Game {
         GUI_Field field = gui.getFields()[0];
         field.setCar(Player1gui, true);
         field.setCar(Player2gui, true);
-
+        /*
         gui.getFields()[1].setTitle("Tower");
         gui.getFields()[2].setTitle("Crater");
         gui.getFields()[3].setTitle("Palace gates");
@@ -51,12 +64,9 @@ public class Game {
         gui.getFields()[9].setTitle("The Were-wall (werewolf-wall)");
         gui.getFields()[10].setTitle("The pit");
         gui.getFields()[11].setTitle("Goldmine");
+        */
 
-
-
-
-
-        //Asks player to choose dice
+   /*     //Asks player to choose dice
         gameInstruction.printText(12);
 
         diceFaces = userInput.nextInt();
@@ -118,7 +128,7 @@ public class Game {
 
         }
 
-
+*/
 
     }
-}
+    }
