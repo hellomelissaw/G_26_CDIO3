@@ -2,7 +2,7 @@ package GameComponents;
 
 import java.util.Scanner;
 
-public class PlayerTurn {
+public class PlayerTurn {/*
     Text gameInstruction = new Text("src/gametext.csv");
     Cup Cup = new Cup();
     // Square 2:    Deposit: 250
@@ -76,5 +76,5 @@ public class PlayerTurn {
         return DiceArray;
 
     }
-
+*/
 }

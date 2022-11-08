@@ -1,6 +1,12 @@
 package GameComponents;
 
 public class BoardInit {
+
+    public void initializeSquares() {
+        Square[] board = new Square[24];
+
+        board[1] = new DeedSquare("Burgerbaren");
+    }
     public void initializeDeeds(){
 
         Deed[] boardDeed = new Deed[24];

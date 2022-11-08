@@ -7,7 +7,6 @@ public class GameController {
         BoardInit board = new BoardInit();
         Scanner userInput = new Scanner(System.in);
         System.out.println("Enter number of player (2-4):");
-        // TO DO : FEJL BESKED NÅR USER INPUT OVER 4 ELLER MINDRE END 2
         int playerCount = userInput.nextInt();
         int balance = 20-(playerCount-2)*2;
         if (playerCount < 2 || playerCount > 4) {

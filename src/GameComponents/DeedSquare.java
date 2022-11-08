@@ -1,13 +1,14 @@
 package GameComponents;
 
-public class DeedSquare extends SquareName{
+public class DeedSquare extends Square{
 
     Deed deed;
     boolean sellDeed = false;
 
-    public DeedSquare(String deedName , Deed deed) {
+    // public DeedSquare(String deedName , Deed deed) {
+    public DeedSquare(String deedName) {
         super(deedName);
-        this.deed = deed;
+        this.deed = new Deed(20, deedName);
     }
 
     Deed getDeed(){

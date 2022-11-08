@@ -1,8 +1,17 @@
 package GameComponents;
 
-public class Square {
+public abstract class Square {
+    int pointsValue;
+        private String squareName;
+
+        Square(String squareName){
+
+            this.squareName = squareName;
+        }
+    }
+
     // definere et array med alle første kast af terningen
-    private int[] pointArray = {250, -100, 100, -20, 180, 0, -70, 60, -80, -50, 650, -500, 350, 100,
+   /* private int[] pointArray = {250, -100, 100, -20, 180, 0, -70, 60, -80, -50, 650, -500, 350, 100,
             100, 75, 0, -140, 60, 50, 100,
             40, -700};
 
@@ -81,3 +90,5 @@ public class Square {
                 System.out.println("Error: Dice sum not within the range");
 
          */
+
+}
