@@ -2,13 +2,7 @@
 
 title Class Diagram
 
-class PlayerTurn {
-diceCup : Cup
-gameSquare : Square
-currentSum : int
 
-play(): void
-}
 
 class Cup{
 die1: Die
@@ -24,37 +18,35 @@ roll(): random int
 
 }
 
-class Game {
-player1 : Player
-player2 : Player
-
-
+class GameController {
+-playerCount : int
+-player[playerCount]: Player[]
+-board : BoardInit
+-cup: Cup
++run()
 
 }
 
 class Player{
-account : Account
-name: String
+-account : Account
+-name: String
 
 }
 
 class Account{
-balance
-updateBalance()
+-balance: int
++updateBalance()
 
 }
 
 class Square {
-pointsValue[]: int
-description[]: String
+-pointsValue[]: int
+-description[]: String
 
 }
 
-
-
-'https://plantuml.com/class-diagram
 class BoardInit {
-deedName : Deed()
++deedName : Deed()
 
 }
 
@@ -65,8 +57,8 @@ abstract class Square {
 class DeedSquare {
 deed: Deed()
 deedSold: boolean false
-hasDeed():boolean
-sellDeed():void
++hasDeed():boolean
++sellDeed():void
 
 }
 
@@ -87,23 +79,39 @@ withdraw()
 deposit()
 
 }
-Game <-down- BoardInit
 
-BoardInit <|-down- PlayerTurn
+class ChanceSquare {}
+
+class ChanceCard {}
+
+class JailSquare {}
+
+class StartSquare {}
+
+class ParkingSquare {}
+
+
+GameController <-down- BoardInit
+
+BoardInit <|-down- Square
 
 Square <|-down- DeedSquare
 
 DeedSquare <-down- Deed
 
-Player <-down- Account
+Square  <|-down- ChanceSquare
 
-Game <-right- Player
+Square  <|-down- JailSquare
 
-PlayerTurn "1" -left- "1" Cup
+Square  <|-down- StartSquare
+
+Square  <|-down- ParkingSquare
 
 
+GameController <-right- Player
 
-PlayerTurn "1" -down- "11" Square
+GameController "1" -left- "1" Cup
+
 
 
 

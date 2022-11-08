@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d75a1e41-00db-4445-b721-b446bbbeca45" name="Changes" comment="Add GuiControllor class">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__diplomitdtu_matadorgui_3_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Diagrams/KlasseDiagram-Class_Diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/G_26_CDIO2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameComponents/GameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameComponents/BoardInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameComponents/BoardInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameComponents/GuiControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameComponents/GuiControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diagrams/KlasseDiagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Diagrams/KlasseDiagram.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameComponents/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameComponents/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +59,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultPlantUmlFileTemplate": "UML Sequence",
     "Git.Branch.Popup.ShowAllRemotes": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Bruger/Desktop/DTU/62532 Versionsstyring og testmetoder/Afleverin 3/G_26_CDIO3",
+    "last_opened_file_path": "/Users/watson/IdeaProjects/G_26_CDIO3",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -105,6 +115,7 @@
       <workItem from="1667830005102" duration="1574000" />
       <workItem from="1667831905528" duration="65000" />
       <workItem from="1667833901528" duration="6166000" />
+      <workItem from="1667899343212" duration="6789000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Print player number&quot;">
       <created>1666619946240</created>

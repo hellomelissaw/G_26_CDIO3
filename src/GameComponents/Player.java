@@ -5,14 +5,14 @@ package GameComponents;
 public class Player {
 
     private String playerName;
-    private int points;
+    private int balance;
     Account PlayerAccount = new Account(playerName);
 
-    public Player(String playerName, int points) {
+    public Player(String playerName, int balance) {
         this.playerName = playerName;
-        this.points = points;
+        this.balance = balance;
         //System.out.println(playerName);
-        PlayerAccount.setBalance(points);
+        PlayerAccount.setBalance(balance);
 
     }
 
