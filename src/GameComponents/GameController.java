@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class GameController {
     int playerCount = 0;
     int balance = 0;
-    Player[] player = new Player[playerCount];
+    Player[] player;
     public void init(){
         BoardInit board = new BoardInit();
         Scanner userInput = new Scanner(System.in);
@@ -15,9 +15,12 @@ public class GameController {
             System.out.println("Invalid player number, pleaSe enter an integer between 2 and 4 inclusively.");
         }
 
+        player = new Player[playerCount]; 
+
         for (int i = 0 ; i < playerCount ; i++) {
+            System.out.println("There are " + playerCount + "players.");
             int playerNumber = i + 1;
-            System.out.println("Player " + playerNumber + "enter your name:");
+            System.out.println("Player " + playerNumber + " enter your name:");
             Scanner input = new Scanner(System.in);
             String playerName = input.nextLine();
             player[i] = new Player(playerName); // INITIALISE EACH PLAYER WITH NAME
