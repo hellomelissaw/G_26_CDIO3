@@ -1,9 +1,9 @@
 package GameComponents;
 
 public class BoardInit {
-
-    public void initializeSquares() {
-        Square[] board = new Square[24];
+    Square[] board = new Square[24];
+    //public void initializeSquares() {
+    public BoardInit() {
 
         board[0] = new StartSquare("Start");
         board[1] = new DeedSquare("The Burgerbar");
@@ -31,6 +31,11 @@ public class BoardInit {
         board[23] = new DeedSquare("The Board Walk");
 
     }
+
+    public Square[] getSquareArr() {
+        return board;
+    }
+
     public void initializeDeeds(){
 
         Deed[] boardDeed = new Deed[24];

@@ -7,6 +7,8 @@ public class GameController {
     Player[] player;
     public void init(){
         BoardInit board = new BoardInit();
+        board.getSquareArr();
+        //System.out.println(board[2]);
         Scanner userInput = new Scanner(System.in);
         System.out.println("Enter number of player (2-4):");
         playerCount = userInput.nextInt();
@@ -15,10 +17,10 @@ public class GameController {
             System.out.println("Invalid player number, pleaSe enter an integer between 2 and 4 inclusively.");
         }
 
-        player = new Player[playerCount]; 
+        player = new Player[playerCount];
 
         for (int i = 0 ; i < playerCount ; i++) {
-            System.out.println("There are " + playerCount + "players.");
+            //System.out.println("There are " + playerCount + "players.");
             int playerNumber = i + 1;
             System.out.println("Player " + playerNumber + " enter your name:");
             Scanner input = new Scanner(System.in);
@@ -30,9 +32,11 @@ public class GameController {
     }
 
     public void run() {
-        PlayerTurn action = new PlayerTurn();
+        //PlayerTurn action = new PlayerTurn();
+        Cup cup = new Cup();
         for (int i = 0 ; i < playerCount ; i++) {
-            action.move(player[i]);
+            //player[i]
+
         }
 
 
