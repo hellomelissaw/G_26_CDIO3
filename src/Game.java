@@ -1,14 +1,11 @@
 import GameComponents.*;
 
-import java.util.Scanner;
-import gui_main.*;
-import gui_fields.*;
-
 
 public class Game {
     public static void main(String[] args) {
 GameController game = new GameController();
 game.init();
+game.run();
 
         /*
 

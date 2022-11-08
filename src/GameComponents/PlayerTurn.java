@@ -2,7 +2,7 @@ package GameComponents;
 
 import java.util.Scanner;
 
-public class PlayerTurn {/*
+public class PlayerTurn {
     Text gameInstruction = new Text("src/gametext.csv");
     Cup Cup = new Cup();
     // Square 2:    Deposit: 250
@@ -22,8 +22,8 @@ public class PlayerTurn {/*
     }
     public int[] move(Player currentPlayer) {
 
-        Scanner userInput = new Scanner(System.in);
-        Square square = new Square();
+       // Scanner userInput = new Scanner(System.in);
+        //Square square = new Square();
 
         int Sum = 0;
         int Point = 0;
@@ -37,7 +37,7 @@ public class PlayerTurn {/*
         DiceArray = Cup.getSum();
         Sum = DiceArray[2];
 
-        Point = square.moveToSquare(Sum);
+       // Point = square.moveToSquare(Sum);
 
         if (Point < 0) {
             int newPoint = Math.abs(Point);
@@ -59,7 +59,7 @@ public class PlayerTurn {/*
 
             DiceArray = Cup.getSum();
             Sum = DiceArray[2];
-            Point = square.moveToSquare(Sum);
+           // Point = square.moveToSquare(Sum);
 
             if (Point < 0) {
                 int newPoint = Math.abs(Point);
@@ -76,5 +76,5 @@ public class PlayerTurn {/*
         return DiceArray;
 
     }
-*/
+
 }
