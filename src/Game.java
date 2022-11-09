@@ -25,7 +25,7 @@ public class Game {
         GUI gui = new GUI();
         PlayerTurn Turn = new PlayerTurn();
         Scanner userInput = new Scanner(System.in);
-/*
+
         int diceFaces;
         int[] DiceArray = new int[3];
 
@@ -38,19 +38,19 @@ public class Game {
         gameInstruction.printText(3); //Prints Player 2 what's your name?
         String Player2=userInput.nextLine();
 
-        Player player1 = new Player(Player1,1000);
-        Player player2 = new Player(Player2,1000);
-/*
-        GUI_Player Player1gui = new GUI_Player(Player1, player1.getPoints());
+        Player player1 = new Player(Player1);
+        Player player2 = new Player(Player2);
+
+        GUI_Player Player1gui = new GUI_Player(Player1, player1.getCurrentBalance());
         gui.addPlayer(Player1gui);
 
-        GUI_Player Player2gui = new GUI_Player(Player2, player2.getPoints());
+        GUI_Player Player2gui = new GUI_Player(Player2, player2.getCurrentBalance());
         gui.addPlayer(Player2gui);
 
         GUI_Field field = gui.getFields()[0];
         field.setCar(Player1gui, true);
         field.setCar(Player2gui, true);
-        /*
+
         gui.getFields()[1].setTitle("Tower");
         gui.getFields()[2].setTitle("Crater");
         gui.getFields()[3].setTitle("Palace gates");
@@ -62,26 +62,19 @@ public class Game {
         gui.getFields()[9].setTitle("The Were-wall (werewolf-wall)");
         gui.getFields()[10].setTitle("The pit");
         gui.getFields()[11].setTitle("Goldmine");
-        */
-
-   /*     //Asks player to choose dice
-        gameInstruction.printText(12);
-
-        diceFaces = userInput.nextInt();
-        Turn.chooseDie(diceFaces);
 
 
 
         while(true)
         {
-            if (player1.getPoints()>=3000)
+            if (player1.getCurrentBalance()>=3000)
             {
                 //Prints out Congrats text
                 System.out.println(gameInstruction.returnText(9) + " " + player1.getPlayerName() + "! " + gameInstruction.returnText(10));
                 break;
 
             }
-            else if (player2.getPoints()>=3000)
+            else if (player2.getCurrentBalance()>=3000)
             {
                 //Prints out Congrats text
                 System.out.println(gameInstruction.returnText(9) + " " + player2.getPlayerName()+ "! " + gameInstruction.returnText(10));
@@ -95,9 +88,9 @@ public class Game {
             gui.setDice(DiceArray[1],DiceArray[2]);
             gui.getFields()[DiceArray[2]].setCar(Player1gui,true);
             gui.showMessage(squareDescription.returnText(DiceArray[2]));
-            Player1gui.setBalance(player1.getPoints());
+            Player1gui.setBalance(player1.getCurrentBalance());
 
-            if (player1.getPoints()>=3000)
+            if (player1.getCurrentBalance()>=3000)
             {
                 //Prints out Congrats text
                 System.out.println(gameInstruction.returnText(9) + " " + player1.getPlayerName() + " " + gameInstruction.returnText(10));
@@ -106,7 +99,7 @@ public class Game {
                 break;
 
             }
-            else if (player2.getPoints()>=3000)
+            else if (player2.getCurrentBalance()>=3000)
             {
                 //Prints out Congrats text
                 System.out.println(gameInstruction.returnText(9) + " " + player2.getPlayerName()+ " " + gameInstruction.returnText(10));
@@ -122,10 +115,10 @@ public class Game {
             gui.setDice(DiceArray[1],DiceArray[2]);
             gui.getFields()[DiceArray[2]].setCar(Player2gui,true);
             gui.showMessage(squareDescription.returnText(DiceArray[2]));
-            Player2gui.setBalance(player2.getPoints());
+            Player2gui.setBalance(player2.getCurrentBalance());
 
         }
 
-*/
+
     }
 }
