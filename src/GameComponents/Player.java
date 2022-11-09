@@ -49,6 +49,6 @@ public class Player {
                 this.squareIndex = 0;
             }
         }
-       return this.squareIndex;
+        return this.squareIndex;
     }
 }

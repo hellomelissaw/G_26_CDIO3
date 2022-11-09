@@ -13,11 +13,12 @@ public class GameController {
     public void init(){
         BoardInit board = new BoardInit();
         square = board.getSquareArr();
-        //System.out.println(board[2]);
         Scanner userInput = new Scanner(System.in);
+
+        //INITIALIZING PLAYERS
         System.out.println("Enter number of player (2-4):");
         playerCount = userInput.nextInt();
-        balance = 20-(playerCount-2)*2;
+        balance = 20-(playerCount-2)*2; //SETS START BALANCE ACCORDING TO AMOUNT OF PLAYERS INPUT
         if (playerCount < 2 || playerCount > 4) {
             System.out.println("Invalid player number, pleaSe enter an integer between 2 and 4 inclusively.");
         }
@@ -41,8 +42,10 @@ public class GameController {
         Cup cup = new Cup();
         int[] diceArr;
         int newPosition = 0;
-        while(true) {
-            for (int i = 0; i < playerCount; i++) {
+
+        while(newPosition < 20) { //ARBITRARY NEWPOSITION VALUE TO TEST FOR-LOOP
+
+            for (int i = 0; i < playerCount; i++) { //THROWS DICE AND UPDATES PLAYER'S POSITION
                 diceArr = cup.getSum();
                 int sum = diceArr[2];
                 System.out.println("You have rolled a " + diceArr[0] + " and a " + diceArr[1] + ". You move " + sum + " squares.");
