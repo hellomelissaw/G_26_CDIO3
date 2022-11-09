@@ -14,7 +14,7 @@ public class Cup {
     public int[] getSum () { // henter værdien af hver de to terninger og lægger dem sammen
         int d1 = die1.roll();
         int d2 = die2.roll();
-        System.out.println("First die: " + d1 + " and second die: " + d2);
+        //System.out.println("First die: " + d1 + " and second die: " + d2);
         int sum;
         sum = d1 + d2;
         int DiceData[] = new int[3];
