@@ -7,29 +7,29 @@ public class BoardInit {
     public BoardInit() {
 
         board[0] = new StartSquare("Start");
-        board[1] = new DeedSquare("The Burgerbar");
-        board[2] = new DeedSquare("The Pizzahouse");
+        board[1] = new DeedSquare("The Burgerbar",1);
+        board[2] = new DeedSquare("The Pizzahouse", 1);
         board[3] = new ChanceSquare("Chance");
-        board[4] = new DeedSquare("The Candy Store");
-        board[5] = new DeedSquare("Ice Cream Shop");
+        board[4] = new DeedSquare("The Candy Store",1);
+        board[5] = new DeedSquare("Ice Cream Shop", 1);
         board[6] = new JailSquare("Visitor at the Jail");
-        board[7] = new DeedSquare("The Museum");
-        board[8] = new DeedSquare("The Library");
+        board[7] = new DeedSquare("The Museum",2);
+        board[8] = new DeedSquare("The Library",2);
         board[9] = new ChanceSquare("Chance");
-        board[10] = new DeedSquare("The Skate Park");
-        board[11] = new DeedSquare("The Pool");
+        board[10] = new DeedSquare("The Skate Park",2);
+        board[11] = new DeedSquare("The Pool",2);
         board[12] = new FreeParkingSquare("Free Parking");
-        board[13] = new DeedSquare("The Playing Hall");
-        board[14] = new DeedSquare("The Cinema");
+        board[13] = new DeedSquare("The Playing Hall",3);
+        board[14] = new DeedSquare("The Cinema",3);
         board[15] = new ChanceSquare("Chance");
-        board[16] = new DeedSquare("The Toy Store");
-        board[17] = new DeedSquare("The Pet Shop");
+        board[16] = new DeedSquare("The Toy Store",3);
+        board[17] = new DeedSquare("The Pet Shop",3);
         board[18] = new JailSquare("Go to Jail");
-        board[19] = new DeedSquare("The Bowling Alley");
-        board[20] = new DeedSquare("The Zoo");
+        board[19] = new DeedSquare("The Bowling Alley",4);
+        board[20] = new DeedSquare("The Zoo",4);
         board[21] = new ChanceSquare("Chance");
-        board[22] = new DeedSquare("The Water Park");
-        board[23] = new DeedSquare("The Board Walk");
+        board[22] = new DeedSquare("The Water Park",4);
+        board[23] = new DeedSquare("The Board Walk",4);
 
     }
 

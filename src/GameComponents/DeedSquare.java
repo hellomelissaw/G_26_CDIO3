@@ -6,7 +6,7 @@ public class DeedSquare extends Square{
     boolean sellDeed = false;
 
     // public DeedSquare(String deedName , Deed deed) {
-    public DeedSquare(String deedName) {
+    public DeedSquare(String deedName, int price) {
         super(deedName);
         this.deed = new Deed(20, deedName);
     }
