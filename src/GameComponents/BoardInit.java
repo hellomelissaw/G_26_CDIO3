@@ -2,6 +2,7 @@ package GameComponents;
 
 public class BoardInit {
     Square[] board = new Square[24];
+    String squareName;
     //public void initializeSquares() {
     public BoardInit() {
 
@@ -35,6 +36,7 @@ public class BoardInit {
     public Square[] getSquareArr() {
         return board;
     }
+
 
     public void initializeDeeds(){
 

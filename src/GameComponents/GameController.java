@@ -50,7 +50,7 @@ public class GameController {
 
                 int playerIndex = i + 1;
 
-                System.out.println("Player " + playerIndex + " you are on square " + square[newPosition]);
+                System.out.println("Player " + playerIndex + " you are on square " + square[newPosition].toString());
 
             }
 
