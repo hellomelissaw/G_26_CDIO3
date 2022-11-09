@@ -9,9 +9,9 @@ public abstract class Square {
             this.squareName = squareName;
         }
 
-    public String toString() {
-        return squareName;
-    }
+        public String toString() {
+            return squareName;
+        }
     }
 
     // definere et array med alle første kast af terningen

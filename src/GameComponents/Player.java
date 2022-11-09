@@ -6,7 +6,7 @@ public class Player {
 
     private String playerName;
     private int balance;
-    private int squareIndex = 1;
+    private int squareIndex = 0;
     Account PlayerAccount = new Account(playerName);
 
     public Player(String playerName) {
@@ -41,8 +41,14 @@ public class Player {
         return playerName;
     }
 
-    public int updatePosition(int squareIndex) {
-
-        return this.squareIndex += squareIndex;
+    public int updatePosition(int sumDice) {
+        for(int i = 0; i < sumDice; i++) {
+            if (this.squareIndex < 23) {
+                this.squareIndex++;
+            } else {
+                this.squareIndex = 0;
+            }
+        }
+       return this.squareIndex;
     }
 }

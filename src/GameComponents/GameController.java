@@ -41,7 +41,7 @@ public class GameController {
         Cup cup = new Cup();
         int[] diceArr;
         int newPosition = 0;
-        while(newPosition < 20) {
+        while(true) {
             for (int i = 0; i < playerCount; i++) {
                 diceArr = cup.getSum();
                 int sum = diceArr[2];
