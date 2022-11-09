@@ -6,6 +6,7 @@ public class Player {
 
     private String playerName;
     private int balance;
+    private int squareIndex = 1;
     Account PlayerAccount = new Account(playerName);
 
     public Player(String playerName) {
@@ -38,5 +39,10 @@ public class Player {
 
     public String getPlayerName (){
         return playerName;
+    }
+
+    public int updatePosition(int squareIndex) {
+
+        return this.squareIndex += squareIndex;
     }
 }

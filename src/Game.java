@@ -2,10 +2,10 @@ import GameComponents.*;
 
 import java.awt.*;
 import java.util.Scanner;
-
+/*
 import gui_main.*;
 import gui_fields.*;
-
+*/
 
 public class Game {
     public static void main(String[] args) {
@@ -16,12 +16,12 @@ public class Game {
 
         // Make the board with 24 squares
 
-        GuiControllor guiBoard = new GuiControllor();
+       // GuiControllor guiBoard = new GuiControllor();
 
-
+/*
         GUI gui = new GUI();
 
-        /*
+
         PlayerTurn Turn = new PlayerTurn();
         Scanner userInput = new Scanner(System.in);
 
@@ -47,13 +47,13 @@ public class Game {
         gui.addPlayer(Player2gui);
 
 
- */
+
 
         GUI_Field field = gui.getFields()[0];
         /*
         field.setCar(Player1gui, true);
         field.setCar(Player2gui, true);
-*/
+
         gui.getFields()[1].setTitle("Tower");
         gui.getFields()[2].setTitle("Crater");
         gui.getFields()[3].setTitle("Palace gates");
@@ -67,7 +67,7 @@ public class Game {
         gui.getFields()[11].setTitle("Goldmine");
 
 
-/*
+
         while(true)
         {
             if (player1.getCurrentBalance()>=3000)

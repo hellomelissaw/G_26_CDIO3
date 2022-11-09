@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d75a1e41-00db-4445-b721-b446bbbeca45" name="Changes" comment="Add GuiControllor class">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__diplomitdtu_matadorgui_3_1_7.xml" beforeDir="false" />
+    <list default="true" id="d75a1e41-00db-4445-b721-b446bbbeca45" name="Changes" comment="Adding rolling of the dice in run method in GameController and commenting out original PlayerTurn stuff.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameComponents/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameComponents/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameComponents/GuiControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameComponents/GuiControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameComponents/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameComponents/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +69,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/out/production/G_26_CDIO2" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -186,7 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667844738903</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updating the gitignore file and moving to root folder">
+      <created>1668015045724</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668015045724</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Adding rolling of the dice in run method in GameController and commenting out original PlayerTurn stuff.">
+      <created>1668015070093</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668015070093</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +271,8 @@
     <MESSAGE value="Implemente class BoardInit" />
     <MESSAGE value="Implemente class DeedSquare" />
     <MESSAGE value="Add GuiControllor class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add GuiControllor class" />
+    <MESSAGE value="Updating the gitignore file and moving to root folder" />
+    <MESSAGE value="Adding rolling of the dice in run method in GameController and commenting out original PlayerTurn stuff." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding rolling of the dice in run method in GameController and commenting out original PlayerTurn stuff." />
   </component>
 </project>

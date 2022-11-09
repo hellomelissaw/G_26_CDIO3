@@ -1,5 +1,5 @@
 package GameComponents;
-import gui_main.GUI;
+//import gui_main.GUI;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class GameController {
     int playerCount = 0;
     int balance = 0;
     Player[] player;
-    GUI gui = new GUI();
+   // GUI gui = new GUI();
     public void init(){
         BoardInit board = new BoardInit();
         board.getSquareArr();
@@ -37,12 +37,15 @@ public class GameController {
     public void run() {
         //PlayerTurn action = new PlayerTurn();
         Cup cup = new Cup();
-        int[] diceArr = new int[3];
+        int[] diceArr;
         for (int i = 0 ; i < playerCount ; i++) {
             diceArr = cup.getSum();
             int sum = diceArr[2];
             System.out.println("You have rolled a " + diceArr[0] + " and a " + diceArr[1] + ". You move " + sum + " squares.");
+            int newPosition = player[i].updatePosition(sum);
 
+            int playerIndex = i+1;
+            System.out.println("Player" + playerIndex + " you are on square " + newPosition);
 
         }
 
