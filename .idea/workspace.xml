@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d75a1e41-00db-4445-b721-b446bbbeca45" name="Changes" comment="Add GuiControllor class">
+      <change afterPath="$PROJECT_DIR$/src/.idea/Engelsk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dansk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameComponents/BoardInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameComponents/BoardInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameComponents/GuiControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameComponents/GuiControllor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,23 +49,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultPlantUmlFileTemplate": "UML Sequence",
-    "Git.Branch.Popup.ShowAllRemotes": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Bruger/Desktop/DTU/62532 Versionsstyring og testmetoder/Afleverin 3/G_26_CDIO3",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
+    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/IdeaProjects/G_26_CDIO3&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\G_26_CDIO3\src" />
+      <recent name="C:\Users\HP\IdeaProjects\G_26_CDIO3\src\.idea" />
       <recent name="$PROJECT_DIR$/out/production/G_26_CDIO2" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -105,6 +108,8 @@
       <workItem from="1667830005102" duration="1574000" />
       <workItem from="1667831905528" duration="65000" />
       <workItem from="1667833901528" duration="6166000" />
+      <workItem from="1668075430517" duration="703000" />
+      <workItem from="1668076291869" duration="4813000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Print player number&quot;">
       <created>1666619946240</created>
